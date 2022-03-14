@@ -67,6 +67,7 @@ question2(logdata,N)
 
 #チェック用(応答結果をリストにprint、連続数を直観的に確認できる)
 '''
+print("\n\nチェック用の応答結果")
 add = logdata.keys()
 for i in add:
     print(i,logdata[i]['ping'])
